@@ -5,7 +5,6 @@
 This project executes a sequence of 6 bars from the high part of the song, using a bash script that controls the playback of musical notes. The script manages the frequencies, timings, and other technical aspects of the playback.
 
 Author: **Oscar de las Heras García**  
-ID: **70274375z**
 
 ## Project Features
 
