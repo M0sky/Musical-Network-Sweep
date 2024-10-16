@@ -50,3 +50,13 @@ To enable the service, run the following command:
 ```bash
 sudo systemctl enable script.service
 ```
+This creates a symbolic link so that the service runs automatically at system startup. The service will execute the script located at /usr/bin/script.sh every time the system reaches the multi-user.target.
+
+## Remote Execution on Multiple Machines
+
+As a personal challenge, I developed a script to execute the musical sequence on all powered-on machines within a specific network segment via SSH.
+
+- **Steps Followed**:
+  - SSH Utility: I used the `sshpass` tool to automate SSH authentication since most of the machines had the default password `XXX` for the `root` user.
+  - Internet Connection Loop: The script waits for an internet connection, performs an IP sweep in the network segment, and if it detects a live machine, it copies the SSH key and executes the script remotely.
+
