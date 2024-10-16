@@ -1,4 +1,3 @@
-# Musical-Network-Sweep
 # Project: Play Despacito Rapidly 🎶
 
 ## Description
