@@ -60,3 +60,10 @@ As a personal challenge, I developed a script to execute the musical sequence on
   - SSH Utility: I used the `sshpass` tool to automate SSH authentication since most of the machines had the default password `XXX` for the `root` user.
   - Internet Connection Loop: The script waits for an internet connection, performs an IP sweep in the network segment, and if it detects a live machine, it copies the SSH key and executes the script remotely.
 
+## Video
+
+You can donwload or view the video PoC here:
+
+[Watch Video](https://drive.google.com/open?id=17dngI241QPPfvaeLSbofMbDVer9p1hRB)
+
+
