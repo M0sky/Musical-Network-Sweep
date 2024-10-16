@@ -41,3 +41,12 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 Alias=script.service
+```
+
+## To Enable the Service
+
+To enable the service, run the following command:
+
+```bash
+sudo systemctl enable script.service
+```
