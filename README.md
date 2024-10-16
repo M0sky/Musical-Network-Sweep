@@ -64,6 +64,6 @@ As a personal challenge, I developed a script to execute the musical sequence on
 
 You can donwload or view the video PoC here:
 
-[Watch Video](https://drive.google.com/open?id=17dngI241QPPfvaeLSbofMbDVer9p1hRB)
+[Watch Video](https://drive.google.com/file/d/1YUZWJz3Aa6SLEn7ZEN41DIuNdrWZZt4M/preview)
 
 
