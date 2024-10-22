@@ -21,7 +21,7 @@ bash -c "ssh-keygen -f /root/.ssh/id_rsa -t rsa -N '' <<< y" >/dev/null
 
 tput civis;
 for i in $(seq 1 254); do
-	bash -c "ping -c 1 172.20.2.$i" >/dev/null && bash -c "sshpass -p labii ssh-copy-id -i /root/.ssh/id_rsa root@172.20.2.$i" >/dev/null && bash -c "ssh root@172.20.2.$i 'bash -s' < /usr/bin/script.sh" >/dev/null &
+	bash -c "ping -c 1 172.20.2.$i" >/dev/null && bash -c "sshpass -p *** ssh-copy-id -i /root/.ssh/id_rsa root@172.20.2.$i" >/dev/null && bash -c "ssh root@172.20.2.$i 'bash -s' < /usr/bin/script.sh" >/dev/null &
 done; wait
 
 tput cnorm
